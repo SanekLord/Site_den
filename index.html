@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+	<div class="text-blog">
+		<h1 class="gl-text"> Закажите бесплатную оценку своей недвижимости у специалиста </h1>
+		<div class="ramka-project">
+			<div style="padding-top: 100px;">
+				<p class="body-text">
+					&nbsp;У наших специалистов более 5 лет опыта на рынке, они подскажут вам как 
+					наиболее лучше будет решить ваш вопрос в короткое время и подстроиться под вашу ситуацию.
+					<br>&nbsp;Обратившись в наше агентство по недвижимости в Минске, клиент в первую очередь экономит личное время.
+					<br>&nbsp;Большое преимущество компании в том, что в ее арсенале имеется обширная база объектов недвижимости, 
+					которая регулярно обновляется. Это значит, что профессионалы располагают данными по разным объектам, 
+					что позволяет быстрее и выгоднее найти вариант для клиента.
+					<br>&nbsp;На всех этапах сделки он получает юридическое сопровождение.
+					Сюда входит оформление требуемых договоров, различных справок,
+					процедура регистрации и перерегистрация имущества и прочие тонкости
+					составления необходимых бумаг для совершения сделки.</p>
+			</div>
+			<div class="img-wrapper">
+				<a href="https://www.instagram.com/7semjanin/" target="_blank">
+					<img src="https://www.mangosl.ru/wp-content/uploads/2022/02/logo-instagram-4096-2048x2048.png"  class="inner-img" style="display: block;
+			margin-left: auto; margin-right: auto"></a>
+			</div>
+		</div>
+	</div>
+	<div class="forma-class">
+		<form id="tg">
+			<div class="form">
+				<div class="title">Получите бесплатную консультацию от специалиста</div>			  
+				<div class="input-container ic1">
+					<input name="name" class="input" type="text" placeholder="Ваше имя" />
+				</div>
+				<div class="input-container ic2">
+					<input name="phone" class="input" type="tel" pattern="[^0-9]{0,1}[0-9]{9,13}" title="Неверно! Пример: +375291234567" placeholder="Ваш телефон" />
+				</div>
+				<button type="submit" class="submit1">Отправить</button>
+			</div>
+		</form>
+	</div>
+	<!-- Начало CSS -->
+
+	<style>
+	body {
+	background-image: url(https://www.worthview.com/wp-content/uploads/2017/03/Nashville-Listing-Agent.jpg);
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	background-size: cover;
+	}
+	.img-wrapper {overflow: hidden;}
+	.inner-img {width: 100px;transition: 0.3s;}
+	.inner-img:hover {transform: scale(1.1);}
+
+	.body-text {
+	font-size: 133%;
+	font-family: sans-serif;
+	text-align: center;
+	color: #15172b;
+	text-shadow: 1px 0px 1px #000;
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+	}
+	.ramka-project {
+    background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid black;
+	border-radius: 20px;
+	margin-right: 10px;
+	margin-left: 20px;
+	}
+	.gl-text {
+	font-family: sans-serif;
+	text-align: center;
+	padding: 10px;
+    color: #15172b;
+    font-size: 210%;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #ffffff;
+	text-decoration:underline; 
+
+	}
+	.text-blog {
+		padding-top: 50px;
+	}
+	.forma-class {
+		padding-top: 100px;
+		margin-right: 20px;
+	}
+	.form {
+	background-color: #15172b;
+	border-radius: 20px;
+	box-sizing: border-box;
+	height: 550px;
+	padding: 20px;
+	width: 320px;
+	}
+
+	.title {
+	color: #eee;
+	font-family: sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	margin-top: 30px;
+	}
+
+
+	.input-container {
+	height: 50px;
+	position: relative;
+	width: 100%;
+	}
+
+	.ic1 {
+	margin-top: 40px;
+	}
+
+	.ic2 {
+	margin-top: 30px;
+	}
+	.input2 {
+	background-color: #303245;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: #eee;
+	font-size: 18px;
+	outline: 0;
+	padding: 4px 20px 0;
+	width: 100%;
+	}
+
+	.input {
+	background-color: #303245;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: #eee;
+	font-size: 18px;
+	height: 100%;
+	outline: 0;
+	padding: 4px 20px 0;
+	width: 100%;
+	}
+	.submit1 {
+	background-color: #08d;
+	border-radius: 12px;
+	border: 0;
+	box-sizing: border-box;
+	color: #eee;
+	cursor: pointer;
+	font-size: 18px;
+	height: 50px;
+	margin-top: 38px;
+    outline: 0;
+	text-align: center;
+	width: 100%;
+	}
+
+	.submit1:active {
+	background-color: #06b;
+	}
+	/* под мобилки */
+	@media screen and (min-width: 100px) and (max-width: 450px) {
+  	.gl-text {
+	position: relative; top: -40px; left: 160px;
+	}
+	.forma-class {
+	position: relative; top: 170px; left: -120px;
+	
+	}
+	.ramka-project {
+	position: relative; top: 550px; left: 110px;
+	width: 135%;
+	}
+	body {
+	background-image: url(https://www.dommebeli.spb.ru/upload/iblock/908/908ab57ebee8795c2e3bd7c8655d6c16.jpg);
+	}
+	}
+
+
+  	@media screen and (min-width: 451px) and (max-width: 700px) {
+  	.gl-text {
+	position: relative; top: -40px; left: 180px;
+	}
+	.forma-class {
+	position: relative; top: 170px; left: -110px;
+	
+	}
+	.ramka-project {
+	position: relative; top: 550px; left: 60px;
+	width: 180%;
+	}
+	body {
+	background-image: url(https://www.dommebeli.spb.ru/upload/iblock/908/908ab57ebee8795c2e3bd7c8655d6c16.jpg);
+  	}
+	}
+
+
+	</style>
+
+	<!-- Начало скрипта -->
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script type="text/javascript">
+		const TOKEN = "5381171906:AAETsaV5NY7wg3b-zu9N2AHzKe89TD0nslU";
+		const CHAT_ID = "-1001400864719";
+		const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`;
+		const success = document.getElementById('success');
+
+		document.getElementById('tg').addEventListener('submit', function(e){
+			e.preventDefault();
+			
+			let message = `<b>Заявка с сайта:</b>\n`;
+			message +=  `<b>Отправитель:</b> ${this.name.value}\n`;
+			message +=  `<b>Телефон:</b> ${this.phone.value}\n`;
+
+			axios.post(URI_API, {
+				chat_id: CHAT_ID,
+				parse_mode: 'html',
+				text: message
+			})
+			.then((res) => {
+				this.name.value = "";
+				this.phone.value = "";
+				success.innerHTML = "Сообщение отправлено!";
+				success.style.display = "block";		
+			})
+			.catch((err) => {
+				console.warn(err);
+			})
+			.finally(() => {
+				console.log('Конец!');
+			})
+		})
+	</script>
+
+</body>
+</html>
